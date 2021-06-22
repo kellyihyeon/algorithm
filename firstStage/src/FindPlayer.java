@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+public class FindPlayer {
 
     public String solution(String[] participant, String[] completion) {
 
@@ -30,15 +30,11 @@ class Solution {
 
     }
 
-
-}
-
-public class FindPlayer {
     public static void main(String[] args) {
         String[] participant = {"leo", "kiki", "eden"};
         String[] completion = {"eden", "kiki"};
 
-        Solution solution = new Solution();
+        FindPlayer solution = new FindPlayer();
         System.out.println(solution.solution(participant, completion));
     }
 }
