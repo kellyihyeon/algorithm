@@ -7,51 +7,42 @@ public class MockTest {
         int[] a = {1, 2, 3, 4, 5};
         int[] b = {2, 1, 2, 3, 2, 4, 2, 5};
         int[] c = {3, 3, 1, 1, 2, 2, 4, 4, 5, 5};
-        int ansA = 0, ansB = 0, ansC = 0;
 
-        // [1,2,3,4,5]
+        // edit
+        int[] arr = new int[3];     // {a가 맞힌 갯수, b가 맞힌 갯수, c가 맞힌 갯수}
+
+        // edit
         for (int i = 0; i < answers.length; i++) {
-            if (a[i] == answers[i]) {
-                ansA++;
+            if (a[i % a.length] == answers[i]) {
+                arr[0]++;
             }
-            if (b[i] == answers[i]) {
-                ansB++;
+            if (b[i % b.length] == answers[i]) {
+                arr[1]++;
             }
-            if (c[i] == answers[i]) {
-                ansC++;
+            if (c[i % c.length] == answers[i]) {
+                arr[2]++;
             }
         }//for
-//        System.out.println(ansA);
-//        System.out.println(ansB);
-//        System.out.println(ansC);
 
-        int max = ansA;
+        //최댓값 찾기 (edit)
+        int max = Math.max(Math.max(arr[0], arr[1]), arr[2]);
         List<Integer> list = new ArrayList<>();
 
-        if (ansB > max) {
-            max = ansB;
-        }
-        if (ansC > max) {
-            max = ansC;
-        }
-
         //max 중복    list={1,2,3}
-        if (max == ansA) {
+        if (max == arr[0]) {
             list.add(1);
         }
-        if (max == ansB) {
+        if (max == arr[1]) {
             list.add(2);
         }
-        if (max == ansC) {
+        if (max == arr[2]) {
             list.add(3);
         }
 
-        int[] answer = {};
-        answer = new int[list.size()];
+        int[] answer = new int[list.size()];
 
         for (int i = 0; i < list.size(); i++) {
             answer[i] = list.get(i);
-//            System.out.println(answer[i]);
         }
 
         return answer;
