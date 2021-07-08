@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class RepetitionStructures1073_2 {
 
     public static void main(String[] args) throws IOException {
-        // 통과 된 코드. 메모리 11144, 시간 64, 코드길이 668B 
+        // 통과 된 코드. 메모리 11144, 시간 64, 코드길이 668B
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         // StringTokenizer 사용해보기
