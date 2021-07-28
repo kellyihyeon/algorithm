@@ -4,33 +4,27 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Array1095 {
+public class TwoDimensionalArray1096 {
     public static void main(String[] args) throws IOException {
 
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));) {
-            int numOfTimes = Integer.parseInt(br.readLine());   // 10
-            String[] numbers = br.readLine().split(" ");
-            int[] numArr = new int[numbers.length];
+            int n = Integer.parseInt(br.readLine());
+            int[][] board = new int[19][19];
 
-            for (int i = 0; i < numOfTimes; i++) {
-                numArr[i] = Integer.parseInt(numbers[i]);
+            for (int i = 0; i < n; i++) {
+                String[] raw = br.readLine().split(" ");    // raw = 1, 1
+                int first = Integer.parseInt(raw[0]);
+                int second = Integer.parseInt(raw[1]);
+                board[first-1][second-1] = 1;
             }
 
-            // 방법 1
-            int min = numArr[0];
-            for (int i = 1; i < numOfTimes; i++) {
-                if (numArr[i] < min) {
-                    min = numArr[i];
+            for (int i = 0; i < board.length; i++) {    // 1 ~ 19
+                for (int j = 0; j < board.length; j++) {
+                    System.out.print(board[i][j] + " ");
                 }
+                System.out.println();
             }
-            System.out.println(min);
 
-            // 방법 2: 함수 사용
-            int minNum = numArr[0];
-            for (int i = 1; i < numOfTimes; i++) {
-                minNum = Math.min(minNum, numArr[i]);
-            }
-            System.out.println(minNum);
 
         } catch (IOException e) {
             e.printStackTrace();
