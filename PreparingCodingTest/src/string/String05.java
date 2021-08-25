@@ -6,59 +6,43 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-// 모르겠다. 내일 다시 풀자.
 public class String05 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        // a # ! b G E * T @ S  >> a, b, g, e, t, s -> s, t, e, g, b, a
-        // S # ! T E G * b @ a
-        // 0 1 2 3 4 5 6 7 8 9
-        // 6번 반복
-            // 10번 반복
-                // 인덱스 자리 == 1이면 영문자이므로
-
-        // 1. 영문자 자리는 1로 표시한다.
-        // 2. 인덱스가 1인 곳에 뒤집어 놓은 배열의 알파벳을 하나씩 넣는다.
-        // * 대문자 A to Z = 65 ~ 90 / 소문자 a to z = 97 ~ 122
+        /**
+         * input: a#b!GE*T@S
+         * 1. 영문자 자리의 인덱스 번호를 알아낸다. [0, 2, 3, 6, 7]
+         * 2. 영문자만 꺼낸다. -> 역으로 저장한다. [a, b, G, E, T, S] -> [S, T, E, G, b, a]
+         * 3. 원본의 영문자 자리 인덱스 번호에 역으로 저장한 영문자를 넣는다.
+         */
         char[] rawChars = br.readLine().toCharArray();
-        int[] indexArray = new int[rawChars.length];
 
-        List<Character> characterList = new ArrayList<>();
+        List<Character> alphabetList = new ArrayList<>();
         List<Character> reverseLetterStore = new ArrayList<>();
+        List<Integer> numberOfIndex = new ArrayList<>();
 
-        // 영문자만 추려내서 배열 만들기
         for (int i = 0; i < rawChars.length; i++) {
             if ((64 < rawChars[i] && rawChars[i] < 91) || (96 < rawChars[i] && rawChars[i] < 123)) {    // 소문자나 대문자
-                indexArray[i] = 1;
-                characterList.add(rawChars[i]);
+                numberOfIndex.add(i);                       // 영문자 해당 인덱스 번호
+                alphabetList.add(rawChars[i]);              // 영문자만 저장
             }
-//            else {
-//                characterList.add('0');
-//            }
-            System.out.print(indexArray[i] + " ");
         }
-        System.out.println();
-        System.out.print(characterList);
+        System.out.println("numberOfIndex = " + numberOfIndex);
+        System.out.println("alphabetList = " + alphabetList);
 
-        // 추려낸 영문자열 뒤집기
-        // d 0 r n 0 0 h j 0 0 0
-        // 0 0 0 j h 0 0 n r 0 d (뒤집기 성공)
-        System.out.println();
-        for (int i = characterList.size() - 1; i > -1; i--) {
-            reverseLetterStore.add(characterList.get(i));
+        for (int i = alphabetList.size() - 1; i > -1; i--) {
+            reverseLetterStore.add(alphabetList.get(i));
         }
-        System.out.println(reverseLetterStore);
+        System.out.println("reverseLetterStore = " + reverseLetterStore);
 
+
+        for (int i = 0; i < numberOfIndex.size(); i++) {
+            rawChars[numberOfIndex.get(i)] = reverseLetterStore.get(i);
+
+        }
         for (int i = 0; i < rawChars.length; i++) {
-            if (indexArray[i] == 1) {
-//                for (int j = 0; j < reverseLetterStore.size(); j++) {
-//
-//                }
-                rawChars[i] = reverseLetterStore.get(i);
-            }
+            System.out.print(rawChars[i]);
         }
-        System.out.println();
-        System.out.println(rawChars);
     }
 }
