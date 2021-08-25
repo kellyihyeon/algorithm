@@ -18,10 +18,8 @@
 <summary> Section 01. String (문자열)</summary>
 <div markdown="1">       
 
-1. [문자 찾기](https://github.com/kellykang-tech/Algorithm/blob/main/PreparingCodingTest/src/string/String01.java)   
-
-2. [대소문자 변환](https://github.com/kellykang-tech/Algorithm/blob/main/PreparingCodingTest/src/string/String02.java)
-
+1. [문자 찾기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0101)
+2. [대소문자 변환](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0102)
 3. [문장 속 단어 ( indexOf(), substring() )](https://github.com/kellykang-tech/Algorithm/blob/main/PreparingCodingTest/src/string/String03.java)
 4. [단어 뒤집기( StringBuilder 이용법 또는 직접 뒤집기 )](https://github.com/kellykang-tech/Algorithm/blob/main/PreparingCodingTest/src/string/String04.java)
 5. [특정 문자 뒤집기 ( toCharArray() )](https://github.com/kellykang-tech/Algorithm/blob/main/PreparingCodingTest/src/string/String05.java)
