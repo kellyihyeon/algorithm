@@ -25,3 +25,5 @@
 - [03. 문장 속 단어 ( indexOf(), substring() )](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0103)
 - [04. 단어 뒤집기( StringBuilder 이용법 또는 직접 뒤집기 )](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0104)
 - [05. 특정 문자 뒤집기 ( toCharArray() )](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0105)
+- [06. 중복 문자 제거](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0106)
+- [07. 회문 문자열](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0107)
