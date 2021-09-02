@@ -27,3 +27,12 @@
 - [05. 특정 문자 뒤집기 ( toCharArray() )](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0105)
 - [06. 중복 문자 제거](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0106)
 - [07. 회문 문자열](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0107)
+- [08. 유효한 팰린드룸(replaceAll 정규식 이용)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0108)
+- [09. 숫자만 추출](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0109)
+- [10. 가장 짧은 문자거리](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0110)
+- [11. 문자열 압축](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0111)
+- [12. 암호(replace(), parseInt(string, 2))](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section01/section0112)
+
+### **Section 02. Array (1, 2차원 배열)**
+- [01. 큰 수 출력하기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0201)
+- [02. 보이는 학생](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0202)
