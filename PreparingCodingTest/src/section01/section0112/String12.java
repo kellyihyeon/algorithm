@@ -43,7 +43,6 @@ public class String12 {
         int n = Integer.parseInt(br.readLine());
         String str = br.readLine();
 
-
         for (Character character : solution(n, str)) {
             System.out.print(character);
         }
