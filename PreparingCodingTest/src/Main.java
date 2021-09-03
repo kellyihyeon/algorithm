@@ -1,5 +1,3 @@
-package section01;
-
 import java.util.Scanner;
 
 class Main {
