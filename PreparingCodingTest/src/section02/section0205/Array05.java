@@ -9,9 +9,9 @@ import java.util.List;
 import java.util.Set;
 
 
-// Time Limit Exceeded 나왔지만 최선을 다해서 풀었다.
 public class Array05 {
 
+    // Time Limit Exceeded 나왔지만 최선을 다해서 풀었다.
     public static int solution(int n) { // n = 20
         // 1부터 n까지 소수 개수 출력 프로그램
         // n=20? {2,3,5,7,11,13,17,19} output = {8}
@@ -41,10 +41,32 @@ public class Array05 {
         return answer.size();
     }
 
+    // 에라토스테네스 체로 풀기
+    private static int solution2(int n) {
+        // n = 6
+        //   1|2|3|4|5|6
+        // 0|1|2|3|4|5|6  -> 인덱스는 7개
+        int[] index = new int[n + 1];
+        int count = 0;
+
+        for (int i = 2; i < n+1; i++) {   // i = [2, 3, 4, 5, 6]
+            if (index[i] == 0) {    // index[2][3][4][5] 가 0이라면 // index[6]은? -> 얘도 체크
+                count++;
+                for (int j = i; j < n+1; j = j + i) { // j = [2, 4, 6]
+                    index[j] = 1;
+                }
+
+            }
+
+        } // for
+        System.out.println("count = " + count);
+        return count;
+    }
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());    // n = 20
 
-        System.out.println(solution(n));
+        System.out.println(solution2(n));
     }
 }
