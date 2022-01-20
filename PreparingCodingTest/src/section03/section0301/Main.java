@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class Main {
 
-    private List<Integer> solution(int n, int m, int[] arr1, int[] arr2) {
+    private List<Integer> solution(int[] arr1, int[] arr2) {
         // 1. 첫번째 배열에 두번째 배열을 더해서 하나의 배열로 만든 다음에 이를 오름차순으로 정렬할까?
-        // 2. 첫번째 배열과 두번째 배열의 첫번째 원소를 서로 비교해서 정렬을 하면?
+        // 2. 첫번째 배열과 두번째 배열의 첫번째 원소를 서로 비교해서 정렬을 하면? -> 이게 two pointer!
 
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < arr1.length; i++) {
@@ -50,7 +50,7 @@ public class Main {
             arr2[i] = scanner.nextInt();
         }
 
-        for (Integer answer : M.solution(n, m, arr1, arr2)) {
+        for (Integer answer : M.solution(arr1, arr2)) {
             System.out.print(answer + " ");
         }
 
