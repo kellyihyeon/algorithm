@@ -36,3 +36,29 @@
 ### **Section 02. Array (1, 2차원 배열)**
 - [01. 큰 수 출력하기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0201)
 - [02. 보이는 학생](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0202)
+- [03. 가위바위보](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0203)
+- [04. 피보나치 수열](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0204)
+- [05. 소수(에라토스테네스 체)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0205)
+- [06.뒤집은 소수](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0206)
+- [07. 점수계산](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0207)
+- [08. 등수 구하기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0208)
+- [09. 격자판 최대합](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0209)
+- [10. 봉우리](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0210)
+- [11. 임시반장 정하기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0211)
+- [12. 멘토링](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section02/section0212)
+
+### **Section 03. Two pointers, Sliding window [효율성 : O(n^2)-->O(n)]**
+- [01. 두 배열 합치기 (two pointers algorithm)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section03/section0301)
+- [02. 공통원소 구하기 (two pointers algorithm)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section03/section0302)
+- [03. 최대 매출 (Sliding Window)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section03/section0303)
+- [04. 연속 부분 수열 (복합적 문제)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section03/section0304)
+- [05.01. 연속된 자연수의 합 (two pointers)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section03/section0305)
+- [05.02. 연속된 자연수의 합 (수학적 접근)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section03/section0305)
+- [06. 최대 길이 연속부분수열 (복합적 문제)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section03/section0306)
+
+### **Section 04. HashMap, TreeSet (해쉬, 정렬지원 Set)**
+- [01. 학급 회장 (HashMap)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section04/section0401)
+- [02. 아나그램 (HashMap)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section04/section0402)
+- [03. 매출액의 종료 (Hash, Sliding Window)]()
+- [04. 모든 아나그램 찾기 (Hash, Sliding Window : 시간 복잡도 O(n))]()
+- [05. K번째 큰 수 (TreeSet)]()
