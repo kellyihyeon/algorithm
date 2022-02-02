@@ -2,17 +2,17 @@ package section04.section0405;
 
 import java.util.*;
 
+/**
+ * 놓친 점
+ * 1. 경우의 수를 찾기 전: list 를 내림차순. list.sort(Collections.reverseOrder()); // 굳이 안해도 되네 어차피 set 에 담을 때 순서 보장이 안되는데
+ * 2. Runtime Error: k번째 수가 존재하지 않는 경우에 -1을 반환하는 조건의 로직을 짜지 않아서 발생
+ */
 public class Main {
 
-    // Runtime Error
     private int solution(int n, int k, List<Integer> list) {
-        int answer = 0;
+        int answer = -1;
         // 큰 수의 합이 같다면 하나로 치고 k번째 수를 구해야 하므로, 합이 같은 수가 몇개가 나올지 모르기 때문에 경우의 수는 다 구해야 한다.
         // (k번째 수가 존재하지 않으면 -1을 출력해야하기 때문)
-
-        // 경우의 수를 찾기 전:
-        // list 를 내림차순한다. 3중 포문 돌려서 경우의 수를 찾는다. 포인터 3개 이용.
-        list.sort(Collections.reverseOrder());
 
         // 경우의 수 찾기
         // lt, mt, rt 이용. lt는 0부터, mt는 lt+1부터, rt는 mt+1부터 해서 중복 기록하는 수가 없게 한다.
@@ -33,7 +33,11 @@ public class Main {
         setToList.sort(Collections.reverseOrder());
 
         // 큰 수부터 정렬하였으므로 자료구조의 k-1 번째 값을 출력한다.
-        answer = setToList.get(k - 1);
+        // Runtime Error 원인:
+        // k번째 수가 존재하지 않는 경우 -1을 출력해야 하므로 if 문으로 조건을 줘야한다. 조건 없이 k-1 번째 수를 출력하려하니 Runtime Error 발생.
+        if (setToList.size() > k) {
+            answer = setToList.get(k - 1);
+        }
 
 
         return answer;
