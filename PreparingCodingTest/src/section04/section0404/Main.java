@@ -10,48 +10,42 @@ public class Main {
         // s 문자열과 t 문자열이 주어질 때 t 문자열과 아나그램이 되는 s 문자열의 갯수를 구하라. (대소문자 구분)
         int answer = 0;
         // map 의 모든 values 를 한번에 같은 값으로 설정하는 방법을 모르므로 map 2개를 사용한다.
-        // bacaAacba
-        // abc
-        // 슬라이딩 윈도우를 해야하는데 각각 비교가 안돼서 문제가 안풀린다. -> 한번만 비교하면 된다고 가정하고 풀어보자.
-        // s = bac
-        // t = abc 가 아나그램인가?
-        // t를 맵에 담는다. map - value = 1 1 1 -> s 를 하나씩 넣고 -1 해본다.
+        //     !  -> map.equals() 를 사용하면 해결할 수 있는 문제 (핵심)
+        // ***** map 의 모든 values 를 한번에 비교하는 방법은 객체비교를 하면 됐었는데, map.equals() 메소드를 떠올리지 못했다. *****
 
         // map 세팅
-        Map<Character, Integer> map = new HashMap<>();
+        Map<Character, Integer> aMap = new HashMap<>();
+        Map<Character, Integer> bMap = new HashMap<>();
         for (int i = 0; i < t.length(); i++) {
-            map.put(t.charAt(i), map.getOrDefault(t.charAt(i), 0) + 1);
+            bMap.put(t.charAt(i), bMap.getOrDefault(t.charAt(i), 0) + 1);
         }
         // 출력
-        for (Character character : map.keySet()) {
-            System.out.println(character + " = " + map.get(character));
-        }
+//        for (Character character : bMap.keySet()) {
+//            System.out.println(character + " = " + bMap.get(character));
+//        }
 
-        // 초기 세팅
-        // ba - abc : 1 1 1 -> 0 0' 1, true
-        // Za - abc : 1 1 1 -> 0 1' 1, false -> map 에 없는 밸류가 존재하면 0이든 -1이든 숫자는 상관없으므로 boolean 을 이용해야 되려나?
-        boolean check = true;   // 한 번이라도 걸리면 false 를 유지하게끔 해야되므로 디폴트는 true.
+        // aMap 초기 세팅 (0부터 t-1개까지)
         for (int i = 0; i < t.length() - 1; i++) {
-            if (map.containsKey(s.charAt(i))) {
-                map.put(t.charAt(i), map.get(t.charAt(i)) - 1);
-            } else {
-                check = false;
-            }
+            aMap.put(s.charAt(i), aMap.getOrDefault(s.charAt(i), 0) + 1);
         }
 
-        // rt 세팅
-        // baZaAacba
-        // abc 로
+        // aMap 과 bMap 을 two pointer 를 조절해 비교한다.
         int lt = 0;
+        // aMap 에 rt 값을 담고 bMap 과 같은지 확인 -> 1.같으면 카운트++, 2.다르면? 패스.
         for (int rt = t.length() - 1; rt < s.length(); rt++) {
-            if (map.containsKey(s.charAt(rt))) {
-                map.put(t.charAt(rt), map.get(t.charAt(rt)) - 1);   // 0 0 0, true
-                if (check && map.get(t.charAt(rt)) == 0) {
-                    answer++;
-                }
+            aMap.put(s.charAt(rt), aMap.getOrDefault(s.charAt(rt), 0) + 1);
+            if (aMap.equals(bMap)) {
+                answer++;
             }
-            // rt든 lt든 map 에 포함되어 있지 않으면 전후로 아나그램이 아니기 때문에 건너뛰면 되는데 -> rt 를 훅 건너뛰게 해서 타겟+1 지점부터 다시 하면 된다.
-            map.put(s.charAt(rt), map.get(s.charAt(rt)) + 1);
+            // 다음 루프가 돌기 전에 aMap 에서 lt 값을 제거한다. -> 이 때, lt 는 aMap 에 반드시 존재한다. lt 값이 1이면 제거, 1이상이면 -1 연산.
+            if (aMap.get(s.charAt(lt)) > 1) {
+                aMap.put(s.charAt(lt), aMap.get(s.charAt(lt)) - 1);
+            } else {
+                aMap.remove(s.charAt(lt));
+            }
+            // lt ++ 해준다. rt는 루프문에서 절로 ++ 된다.
+            // 다음 루프가 돌았을 때, rt 값을 aMap 에 담고 bMap 과 같은지 확인 -> 위 절차를 반복한다.
+            lt++;
         }
 
 
