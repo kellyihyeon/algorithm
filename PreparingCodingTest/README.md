@@ -60,5 +60,15 @@
 - [01. 학급 회장 (HashMap)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section04/section0401)
 - [02. 아나그램 (HashMap)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section04/section0402)
 - [03. 매출액의 종료 (Hash, Sliding Window)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section04/section0403)
-- [04. 모든 아나그램 찾기 (Hash, Sliding Window : 시간 복잡도 O(n))]()
-- [05. K번째 큰 수 (TreeSet)]()
+- [04. 모든 아나그램 찾기 (Hash, Sliding Window : 시간 복잡도 O(n))](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section04/section0404)
+- [05. K번째 큰 수 (TreeSet)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section04/section0405)
+
+### **Section 05. Stack, Queue(자료구조)**
+- [01. 올바른 괄호](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0501)  
+- [02. 괄호문자 제거](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0502)  
+- [03. 크레인 인형뽑기(카카오)]()  
+- [04. 후위식 연산(postfix)]()  
+- [05. 쇠막대기]()
+- [06. 공주 구하기]()
+- [07. 교육 과정 설계]()
+- [08. 응급실]()
