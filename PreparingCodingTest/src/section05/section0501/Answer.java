@@ -1,4 +1,4 @@
-package section05;
+package section05.section0501;
 
 import java.util.Scanner;
 import java.util.Stack;
