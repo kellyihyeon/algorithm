@@ -31,6 +31,8 @@ public class Main {
         // stack 에 ABCD 가 저장돼있을 때 pop 을 하면 DCBA 순으로 나온다.(Last in First out) -> 역순으로 정렬한다.
         Collections.reverse(answer);
 
+        // 알게된 것: stack 도 for each 문 써서 배열처럼 접근하면 0번부터 뽑을 수 있다. -> pop 으로 안뽑아도 된다.
+
         return answer;
     }
 
