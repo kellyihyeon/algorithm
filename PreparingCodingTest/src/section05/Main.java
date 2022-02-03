@@ -3,6 +3,7 @@ package section05;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Main {
 
@@ -47,6 +48,35 @@ public class Main {
         return answer;
     }
 
+    /**
+     * stack 으로 풀기. stack 은 last in first out
+     */
+    private String solutionUsingStack(String str) {
+        String answer = "YES";
+        // str 에서 문자를 뽑고, 문자가 여는 괄호라면 stack 에 저장한다.
+        Stack<Character> stack = new Stack<>();
+
+        for (char c : str.toCharArray()) {
+            if (c == '(') {
+                stack.push(c);
+            } else {
+                // stack 에서 문자를 빼야 하는데 stack 이 비어있다면? 잘못된 괄호이므로 NO를 출력한다.
+                if (stack.isEmpty()) {
+                    answer = "NO";
+                } else {
+                    // 문자가 닫는 괄호라면 stack 에서 문자를 뺀다.(pop)
+                    stack.pop();
+                }
+            }
+        }
+        // 문자를 전부 검사하고나서 stack 이 비어있다면 짝 맞게 비어진 것이므로 YES 를 출력한다.
+        if (!stack.isEmpty()) {
+            answer = "NO";
+        }
+
+        return answer;
+    }
+
     public static void main(String[] args) {
         // 괄호 문자열이 입력된다. (최대 길이: 30)
         // 이 괄호가 올바른 한쌍으로 이루어져있으면 YES, 그렇지 않으면 NO를 출력하라.
@@ -54,6 +84,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.next();
 
-        System.out.println(M.solution(str));
+        System.out.println(M.solutionUsingStack(str));
     }
 }
