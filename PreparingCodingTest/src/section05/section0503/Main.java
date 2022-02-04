@@ -4,6 +4,10 @@ import java.util.Scanner;
 import java.util.Stack;
 
 // ** 시간 줄이는 법: 2차원 배열 문제 나오면 2차원 배열의 자리를 전부 표시하고 규칙찾기 (i와 j의 위치를 반대로 잡아서 초반에 시간을 소요함)
+// ** 효율적으로 코드 짜기: 1.배열에서 전부 다 꺼내려할 때는 for each 문을 써서 간결하게 표시한다. (읽기 좋음)
+//                       2. for 문 안에서 변수를 이해하기 쉬운 이름으로 짓는다. 예: i -> position
+//                       3. 스택이 비었는지 확인할 때 if (!basket.isEmpty() && basket.peek() == board[j][moves[i] - 1]) 한번에 비교하면
+//                          if 에 해당하지 않는 경우 else 문을 한번만 써서 코드를 짤 수 있다.  basket.push(board[j][moves[i] - 1]);
 public class Main {
     // 바구니에 쌓이는 인형 = 4 (3 (1 1) 3) 2 4 -> 4개 인형이 터져서 없어진다.
     // 자연수 n, n*n board 배열 (2차원 배열), moves 배열의 길이 m, moves 배열 (1차원 배열)이 주어진다.
