@@ -68,7 +68,7 @@
 - [02. 괄호문자 제거](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0502)  
 - [03. 크레인 인형뽑기(카카오)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0503)  
 - [04. 후위식 연산(postfix)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0504)  
-- [05. 쇠막대기]()
+- [05. 쇠막대기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0505)
 - [06. 공주 구하기]()
 - [07. 교육 과정 설계]()
 - [08. 응급실]()
