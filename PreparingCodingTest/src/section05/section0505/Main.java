@@ -9,6 +9,8 @@ import java.util.Stack;
  *         // 괄호 한쌍이 인접하면 그 표시는 레이저, 인접하지 않으면 쇠막대기.
  *         // 쇠막대기에 레이저를 쐈을 때 막대기가 몇 개로 잘려지는지 출력하라.
  *
+ *   *** 문제점: 1.Stack 타입을 Character 로 했으면 char 를 바로 담을 수 있는데, String 으로 해서 char -> String 으로 굳이 변환시켜서 넣고 있다.
+ *              2.deployment 를 char 배열로 만들지 않고, for 문 안에서 str.toChar() 메서드를 이용해서 인덱스로 접근했으면 됐는데, 굳이 배열을 생성했다.
  */
 public class Main {
 
