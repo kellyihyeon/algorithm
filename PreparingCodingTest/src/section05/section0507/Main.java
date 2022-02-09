@@ -8,6 +8,39 @@ import java.util.Scanner;
 // 필수 과목은 반드시 주어진 순서대로 이수해야 한다. 필수 과목 이수 조건에 맞게 수업 설계가 계획 됐다면 YES, 그렇지 않으면 NO 를 출력하라.
 public class Main {
 
+    // 필수 과목 문자열을 queue 에 담는 방법
+    private String solution2(String requiredSubject, String subjectPlan) {
+        String answer = "YES";
+
+        // 필수 과목을 queue 에 넣고,
+        Queue<Character> queue = new LinkedList<>();
+        for (char c : requiredSubject.toCharArray()) {
+            queue.offer(c);
+        }
+
+        // 수업 설계 길이만큼 설계한 과목이 queue 에 있는지 본다.
+        for (int i = 0; i < subjectPlan.length(); i++) {
+            // 1.있다. 2.없다.
+            //  1. 있으면 그 과목과 필수 과목의 첫번째 과목이 같은지 확인한다. -> 1.같다. 2.다르다.
+            if (queue.contains(subjectPlan.charAt(i))) {
+                //          1. 같으면 queue 에서 없앤다. 순서가 맞으니까.(poll 하면 없어지니까 로직을 짤 필요는 없다.)
+                //          2. 다르다면, 필수 과목의 순서와 설계한 과목의 순서가 맞지 않으므로 NO를 return 한다.
+                if (queue.poll() != subjectPlan.charAt(i)) {
+                    return "NO";
+                }
+            }
+            //  2. 없으면 필수 과목이 아니라는 의미이므로 상관없다. 그냥 넘어간다. (로직을 짤 필요가 없다.)
+        }
+
+        // 필수 과목 queue 가 비어져있지 않으면 필수 과목을 전부 넣어서 설계를 한 것이 아니기 때문에 NO를 출력한다.
+        if (queue.size() != 0) {
+            return "NO";
+        }
+
+        return answer;
+    }
+
+    // 수업 설계 문자열을 queue 에 담는 방법
     private String solution(String requiredSubject, String subjectPlan) {
         String answer = "YES";
         // 우선 수업 설계 문자열을 queue 에 하나씩 담아 놓는다.
