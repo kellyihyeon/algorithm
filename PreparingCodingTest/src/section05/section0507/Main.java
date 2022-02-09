@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Main {
 
     // 필수 과목 문자열을 queue 에 담는 방법
+    // ** 설계 과목의 문자들을 하나씩 빼서 비교할 것이므로 for each 문 사용했으면 깔끔
     private String solution2(String requiredSubject, String subjectPlan) {
         String answer = "YES";
 
