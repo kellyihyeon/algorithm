@@ -49,6 +49,42 @@ public class Main {
         return answer;
     }
 
+    // 문제에서 제시한 방법대로 품
+    private int solution2(int n, int m, int[] arr) {
+        int order = 1;
+        Queue<Patient> queue = new LinkedList<>();
+        for (int i = 0; i < n; i++) {
+            queue.offer(new Patient(i, arr[i]));
+        }
+
+        while (!queue.isEmpty()) {
+            // 큐 제일 처음 있는 애를 꺼낸다.
+            Patient poll = queue.poll();
+            // 자기 뒤에 있는 애들의 priority 값이랑 비교한다.
+            for (Patient waitingList : queue) {
+                // 자기 위험도보다 큰 애가 있으면 줄 맨 뒤로 가야한다.
+                if (poll.getPriority() < waitingList.getPriority()) {
+                    queue.offer(poll);
+                    poll = null;
+                    break;  // 1명이라도 있으면 뒤로 가야 한다.
+                }
+            }
+            // 자기 위험도보다 큰 애가 없으면 자기 순서니까 진료를 보러 들어가면 된다. -> 이미 큐에서 없어진 애이므로 다시 없앨 필요 없다.
+            // (진료실 들어가는 애만 검사)근데 제일 처음에 있는 애의 id 값을 본다. id 값이 m이다. 정답이므로 order 값을 바로 출력한다.
+            if (poll != null) {
+                if (poll.getId() == m) {
+                    return order;
+                } else {
+                    //                                      id 값이 m이 아니다. order++ 해준다.
+                    order++;
+                }
+            }
+
+        }
+
+        return order;
+    }
+
 
     public static void main(String[] args) {
         Main M = new Main();
@@ -60,33 +96,26 @@ public class Main {
             arr[i] = scanner.nextInt();
         }
 
-        System.out.println(M.solution(n, m, arr));
+        System.out.println(M.solution2(n, m, arr));
 
     }
 
-    private class Patient {
-        private int id;
-        private int priority;
-
-        public Patient(int id, int priority) {
-            this.id = id;
-            this.priority = priority;
-        }
-
-        public int getId() {
-            return id;
-        }
-
-        public int getPriority() {
-            return priority;
-        }
-
-        @Override
-        public String toString() {
-            return "Patient{" +
-                    "id=" + id +
-                    ", priority=" + priority +
-                    '}';
-        }
-    }
 }
+
+ class Patient {
+    private int id;
+    private int priority;
+
+    public Patient(int id, int priority) {
+        this.id = id;
+        this.priority = priority;
+    }
+
+     public int getId() {
+         return id;
+     }
+
+     public int getPriority() {
+         return priority;
+     }
+ }

@@ -71,4 +71,4 @@
 - [05. 쇠막대기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0505)
 - [06. 공주 구하기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0506)
 - [07. 교육 과정 설계](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0507)
-- [08. 응급실]()
+- [08. 응급실](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0508)
