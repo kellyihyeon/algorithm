@@ -72,3 +72,6 @@
 - [06. 공주 구하기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0506)
 - [07. 교육 과정 설계](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0507)
 - [08. 응급실](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section05/section0508)
+
+### **Section 06. Sorting and Searching (정렬, 이분검색과 결정 알고리즘)**
+- [01. 선택정렬](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0601) 
