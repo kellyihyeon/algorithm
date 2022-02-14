@@ -3,6 +3,9 @@ package section06.section0603;
 import java.util.Scanner;
 
 // n 개의 배열을 삽입 정렬하여 출력하라.
+// 6
+// 11 7 5 6 10 9
+// 5 6 7 8 11  9
 public class Main {
 
     private int[] solution(int n, int[] arr) {
@@ -21,9 +24,12 @@ public class Main {
                     int tmp = arr[j];
                     arr[j] = arr[j - 1];
                     arr[j - 1] = tmp;
+                } else {
+                    // 만약 앞 숫자와 비교를 했는데 key element 가 더 크면 더 앞의 숫자와는 비교하지 않아도 된다.
+                    // *** -> 이 부분 로직을 안짰다. 앞 원소들과 비교하지 않도록 break 해줬어야 함.
+                    break;
                 }
                 // j가 2일 때, 2인덱스, 1인덱스 비교해서 스와프 -> j가 1일 때, 1인덱스 0인덱스 비교해서 스와프
-                // 만약 앞 숫자와 비교를 했는데 key element 가 더 크면 더 앞의 숫자와는 비교하지 않아도 된다.
             }
 
 
