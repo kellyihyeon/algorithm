@@ -76,3 +76,5 @@
 ### **Section 06. Sorting and Searching (정렬, 이분검색과 결정 알고리즘)**
 - [01. 선택정렬](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0601)
 - [02. 버블정렬](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0602)
+- [03. 삽입정렬](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0603)
+- [04. Least Recently Used](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0604)
