@@ -1,5 +1,7 @@
 package section06.section0605;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -21,8 +23,21 @@ public class Main {
                 }
             }
         }
+        return answer;
+    }
 
+    // O(N)
+    private String solutionUsingHashMap(int n, int[] arr) {
+        String answer = "U";
+        Map<Integer, Integer> map = new HashMap<>();
 
+        for (int i = 0; i < n; i++) {
+            map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
+
+            if (map.get(arr[i]) > 1) {
+                return "D";
+            }
+        }
         return answer;
     }
 
@@ -38,5 +53,6 @@ public class Main {
         }
 
         System.out.println(M.solution(n, arr));
+//        System.out.println(M.solutionUsingHashMap(n, arr));
     }
 }
