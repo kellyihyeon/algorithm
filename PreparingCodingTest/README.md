@@ -79,3 +79,4 @@
 - [03. 삽입정렬](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0603)
 - [04. Least Recently Used](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0604)
 - [05. 중복확인](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0605)
+- [06. 장난꾸러기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0606)
