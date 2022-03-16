@@ -80,3 +80,5 @@
 - [04. Least Recently Used](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0604)
 - [05. 중복확인](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0605)
 - [06. 장난꾸러기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0606)
+- [07. 좌표 정렬(compareTo)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0607)
+- [08. 이분 검색](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0608)
