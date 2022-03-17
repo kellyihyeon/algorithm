@@ -83,3 +83,4 @@
 - [07. 좌표 정렬(compareTo)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0607)
 - [08. 이분 검색](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0608)
 - [09. 뮤직비디오(결정 알고리즘)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0609)
+- [10. 마구간 정하기(결정 알고리즘)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section06/section0610)
