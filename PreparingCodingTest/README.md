@@ -88,3 +88,4 @@
 ### **Section 07. Recursive, Tree, Graph(DFS, BFS 기초)**
 - [01. 재귀함수(스택프레임)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0701)
 - [02. 이진수 출력(재귀)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0702)
+- [03. 팩토리얼](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0703)
