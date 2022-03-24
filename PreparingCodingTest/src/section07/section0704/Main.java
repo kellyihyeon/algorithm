@@ -14,6 +14,7 @@ public class Main {
             return 1;
         } else {
             // n=4 -> f(3)+f(2)
+            // 수열을 출력... 1 1 2 3 5 계산 과정말고 결과만.
             return fibonacci(n - 1) + fibonacci(n - 2);
         }
     }
@@ -21,7 +22,8 @@ public class Main {
 
     public static void main(String[] args) {
         Main M = new Main();
-        for (int i = 1; i < 11; i++) {
+        int n = 10;
+        for (int i = 1; i < n + 1; i++) {
             System.out.print(M.fibonacci(i) + " ");
         }
     }
