@@ -19,10 +19,10 @@ public class Main {
             }
             // 공집합은 출력하지 않는다.
             if (tmp.length() > 0) {
-                System.out.println(tmp);
+                System.out.println(tmp);    // 1 2 3 / 1 2  / 1 3 / 1 / 2 3 / 2 / 3
             }
         } else {    // 부분 집합으로 사용하느냐 아니냐
-            ch[l] = 1;
+            ch[l] = 1;      // {0, 0, 0}
             DFS(l + 1);
 
             ch[l] = 0;
