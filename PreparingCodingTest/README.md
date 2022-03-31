@@ -93,3 +93,4 @@
 - [05. 이진트리 순회(DFS: Depth-First Search)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0705)
 - [06. 부분집합 구하기(DFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0706)
 - [07. 이진트리 레벨탐색(BFS: Breadth-First Search)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0707)
+- [08. 송아지 찾기1(BFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0708)
