@@ -4,7 +4,7 @@ package section07.section0709;
  * 최단 거리 간선 구하기 - DFS (DFS 를 연습하기 위해 DFS 로 풀이)
  * DFS 를 풀 때 노드의 자식 노드는 left, right 2개 전부 있다고 가정.
  */
-public class Main1 {
+public class Main {
 
     private Node rootNode;
 
@@ -18,7 +18,7 @@ public class Main1 {
     }
 
     public static void main(String[] args) {
-        Main1 tree = new Main1();
+        Main tree = new Main();
 
         tree.rootNode = new Node(1);
         tree.rootNode.setLeft(new Node(2));

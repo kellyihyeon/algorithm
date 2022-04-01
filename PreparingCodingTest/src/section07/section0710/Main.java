@@ -1,5 +1,6 @@
-package section07.section0709;
+package section07.section0710;
 
+import section07.section0709.Node;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -9,22 +10,7 @@ import java.util.Queue;
  *   2        3
  * 4  5
  */
-public class Main2 {
-
-    public static void main(String[] args) {
-        // 제시된 그림처럼 노드 그래프를 만든다.
-        // BFS 로 푼다면?
-        Node rootNode = new Node(1);
-        rootNode.setLeft(new Node(2));
-        rootNode.setRight(new Node(3));
-
-        rootNode.getLeft().setLeft(new Node(4));
-        rootNode.getLeft().setRight(new Node(5));
-
-        Main2 M = new Main2();
-        System.out.println(M.BFS(rootNode));
-
-    }
+public class Main {
 
     // 노드가 left, right 자식 노드를 가지고 있다면 queue 에 담는다. 1 2 3[ 4 5
     // 노드를 꺼내서 left, right 자식 노드를 확인하고 queue 에 담는다. 꺼낸 노드에 자식 노드가 없다면 간선의 갯수를 리턴한다.
@@ -57,5 +43,20 @@ public class Main2 {
         }
 
         return answer;
+    }
+
+    public static void main(String[] args) {
+        // 제시된 그림처럼 노드 그래프를 만든다.
+        // BFS 로 푼다면?
+        Node rootNode = new Node(1);
+        rootNode.setLeft(new Node(2));
+        rootNode.setRight(new Node(3));
+
+        rootNode.getLeft().setLeft(new Node(4));
+        rootNode.getLeft().setRight(new Node(5));
+
+        Main M = new Main();
+        System.out.println(M.BFS(rootNode));
+
     }
 }
