@@ -94,3 +94,5 @@
 - [06. 부분집합 구하기(DFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0706)
 - [07. 이진트리 레벨탐색(BFS: Breadth-First Search)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0707)
 - [08. 송아지 찾기1(BFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0708)
+- [09. Tree 말단노드까지의 가장 짧은 경로(DFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0709/Main1.java)
+- [09. Tree 말단노드까지의 가장 짧은 경로(BFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0709/Main2.java)
