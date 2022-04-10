@@ -22,7 +22,7 @@ public class Main {
         if (v == n) {
             answer++;
         } else {
-            for (int i = 1; i < n + 1; i++) {   // 1 2 3 4 5
+            for (int i = 1; i < n + 1; i++) {
                 if (graph[v][i] == 1 && check[i] == 0) {
                     check[i] = 1;
                     DFS(i);

@@ -97,3 +97,4 @@
 - [09. Tree 말단노드까지의 가장 짧은 경로(DFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0709)
 - [10. Tree 말단노드까지의 가장 짧은 경로(BFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0710)
 - [12. 경로탐색(DFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0712)
+- [13. 경로탐색(인접리스트, ArrayList)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0713)
