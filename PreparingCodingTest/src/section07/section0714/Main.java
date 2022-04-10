@@ -17,17 +17,21 @@ public class Main {
 
     // 최소 이동 간선수 = 레벨을 확인할 것
     // 정점 6, 간선 9
-    // 1에서 2까지, 1에서 3까지... 목표지점은 +1씩 해서 target = node 가 같을때 까지 반복하고 레벨 수를 출력
+    // check, distance(기존 레벨 +1), queue 활용 !
 
     private void BFS(int v) {   // b(1)
         Queue<Integer> queue = new LinkedList<>();
-        check[v] = 1;       // check = [1 0 1 1 0 0]
-        distance[v] = 0;    // dis = [0 0 1 1 0 0]
-        queue.offer(v);     // queue = 1 [3 4]
+        check[v] = 1;       // check = [1 1 1 1 1 1]
+        distance[v] = 0;    // dis = [0 3 1 1 2 2]
+        queue.offer(v);     // queue = 1 3 5 6 2[ ]
 
         while (!queue.isEmpty()) {
-            int currentVertex = queue.poll();   // 1
-            for (Integer nv : graph.get(currentVertex)) {   // graph = {1(3',4'), 2(1,5), 3(4), 4(5,6), 6(2,5}
+            int currentVertex = queue.poll();
+            //0-    1
+            //1- 3     4
+            //2-     5   6
+            //3-         2
+            for (Integer nv : graph.get(currentVertex)) {
                 if (check[nv] == 0) {
                     check[nv] = 1;
                     queue.offer(nv);
