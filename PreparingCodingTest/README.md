@@ -99,3 +99,6 @@
 - [12. 경로탐색(DFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0712)
 - [13. 경로탐색(인접리스트, ArrayList)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0713)
 - [14. 그래프 최단거리(BFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section07/section0714)
+
+### **Section 08. DFS, BFS 활용**
+- [01. 합이 같은 부분집합](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0801)
