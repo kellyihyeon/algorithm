@@ -103,3 +103,4 @@
 ### **Section 08. DFS, BFS 활용**
 - [01. 합이 같은 부분집합](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0801)
 - [02. 바둑이 승차](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0802)
+- [03. 최대점수 구하기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0803)
