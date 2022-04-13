@@ -105,3 +105,4 @@
 - [02. 바둑이 승차](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0802)
 - [03. 최대점수 구하기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0803)
 - [04. 중복 순열](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0804)
+- [05. 동전 교환](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0805)
