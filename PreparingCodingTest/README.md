@@ -108,3 +108,4 @@
 - [05. 동전 교환](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0805)
 - [06. 순열 구하기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0806)
 - [07. 조합 수(메모이제이션)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0807)
+- [08. 수열 추측하기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0808)
