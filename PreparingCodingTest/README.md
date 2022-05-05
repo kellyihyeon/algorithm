@@ -116,3 +116,6 @@
 - [13. 섬나라 아일랜드(DFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0813)
 - [14. 섬나라 아일랜드(BFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0814)
 - [15. 피자 배달 거리(DFS)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section08/section0815)
+
+### **Section 09. Greedy Algorithm**
+- [01. 씨름 선수](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section09/section0901)
