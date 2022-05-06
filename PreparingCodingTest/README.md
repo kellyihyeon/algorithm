@@ -119,3 +119,4 @@
 
 ### **Section 09. Greedy Algorithm**
 - [01. 씨름 선수](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section09/section0901)
+- [02. 회의실 배정](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section09/section0902)
