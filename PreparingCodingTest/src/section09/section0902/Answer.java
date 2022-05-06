@@ -28,7 +28,7 @@ class Time implements Comparable<Time> {
 
 public class Answer {
 
-    private int solution(List<Time> list, int n) {
+    private int solution(List<Time> list) {
         int cnt = 0;
 
         Collections.sort(list);
@@ -59,6 +59,6 @@ public class Answer {
             list.add(new Time(start, end));
         }
 
-        System.out.println(M.solution(list, n));
+        System.out.println(M.solution(list));
     }
 }
