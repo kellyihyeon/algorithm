@@ -9,7 +9,7 @@ import java.util.*;
 public class Main {
 
 
-    private int solution(List<Meeting> list, int n) {
+    private int solution(List<Time> list, int n) {
         int answer = 1;
 
         Collections.sort(list);
@@ -31,13 +31,13 @@ public class Main {
         final Scanner scanner = new Scanner(System.in);
 
         int n = scanner.nextInt();
-        List<Meeting> list = new ArrayList<>();
+        List<Time> list = new ArrayList<>();
 
         for (int i = 0; i < n; i++) {
             int start = scanner.nextInt();
             int end = scanner.nextInt();
 
-            list.add(new Meeting(start, end));
+            list.add(new Time(start, end));
         }
 
         System.out.println(M.solution(list, n));
@@ -46,7 +46,7 @@ public class Main {
     }
 }
 
-class Meeting implements Comparable<Meeting> {
+class Meeting implements Comparable<Time> {
 
     public int startTime;
     public int endTime;
@@ -57,7 +57,7 @@ class Meeting implements Comparable<Meeting> {
     }
 
     @Override
-    public int compareTo(Meeting o) {
+    public int compareTo(Time o) {
         if (this.endTime == o.endTime) {
             return this.startTime - o.startTime;
         } else {
