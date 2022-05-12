@@ -122,3 +122,5 @@
 - [02. 회의실 배정](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section09/section0902)
 - [03. 결혼식](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section09/section0903)
 - [04. 최대 수입 스케쥴](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section09/section0904)
+- [05. 다익스트라 알고리즘](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section09/section0905)
+- [06. 친구인가? (Union&Find)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section09/section0906)
