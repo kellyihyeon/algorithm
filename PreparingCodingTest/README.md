@@ -126,3 +126,7 @@
 - [06. 친구인가? (Union&Find)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section09/section0906)
 - [07. 원더랜드(크루스칼: Union&Find)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section09/section0907)
 - [08. 원더랜드(프림: PriorityQueue)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section09/section0908)
+
+
+### **Section 10. dynamic programming(동적 계획법)**
+- [01. 계단 오르기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section10/section1001)
