@@ -134,3 +134,4 @@
 - [03. 최대 부분 증가수열](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section10/section1003)
 - [04. 가장 높은 탑 쌓기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section10/section1004)
 - [05. 동전 교환(냅색 알고리즘)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section10/section1005)
+- [06. 최대 점수 구하기(냅색 알고리즘)](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest/src/section10/section1005)
