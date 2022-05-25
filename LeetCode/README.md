@@ -19,5 +19,6 @@
 ## **[ INDEX ]**
 ## Algorithm 1
 ### **Day 1 - Binary Search**
-- [704. Binary Search]()
-- [278. First Bad Version]()
+- [704. Binary Search](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/binarysearch/BinarySearch704.java)
+- [278. First Bad Version](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/binarysearch/FirstBadVersion278.java)
+- [35. Search Insert Position](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/binarysearch/SearchInsertPosition35.java)

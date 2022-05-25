@@ -29,7 +29,7 @@ public class FirstBadVersion278 {
         return binary(1, n);
     }
 
-    // 2.
+    // 2. 재귀 아닌 방식
     public int firstBadVersion2(int n) {
         int left = 1;
         int right = n;
