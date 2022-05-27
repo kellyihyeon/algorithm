@@ -31,4 +31,4 @@
 - [ ] [진행 중](https://github.com/kellykang-tech/Algorithm/tree/main/firstStage) 
 
 ### **LeetCode - Problems**
-- [시작 전](https://github.com/kellykang-tech/Algorithm/tree/main/LeetCode)
+- [ ] [진행 중](https://github.com/kellykang-tech/Algorithm/tree/main/LeetCode)
