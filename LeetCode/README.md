@@ -26,3 +26,6 @@
 ### **Day 2 - Two Pointers**
 - [977. Squares of a Sorted Array](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/twopointers/SquaresOfaSortedArray977.java)
 - [189. Rotate Array](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/twopointers/RotateArray189.java)
+
+### **Day 3 - Two Pointers**
+- [283. Move Zeroes](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/twopointers/MoveZeroes283.java)
