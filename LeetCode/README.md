@@ -34,3 +34,6 @@
 ### **Day 4 - Two Pointers**
 - [344. Reverse String](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/twopointers/ReverseString344.java)
 - [557. Reverse Words in a String III](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/twopointers/ReverseWords557.java)
+
+### **Day 5 - Two Pointers**
+- [876. Middle of the Linked List](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/twopointers/MiddleOfTheLinkedList876.java)
