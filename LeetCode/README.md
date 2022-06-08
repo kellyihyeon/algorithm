@@ -38,3 +38,6 @@
 ### **Day 5 - Two Pointers**
 - [876. Middle of the Linked List](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/twopointers/MiddleOfTheLinkedList876.java)
 - [19. Remove Nth Node From End of List](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/twopointers/RemoveNthNodeFromEndOfList19.java)
+
+### **Day 6 - Sliding Window**
+- [3. Longest Substring Without Repeating Characters](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/slidingwindow/LongestSubstring3.java)
