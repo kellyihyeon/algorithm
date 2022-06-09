@@ -41,3 +41,4 @@
 
 ### **Day 6 - Sliding Window**
 - [3. Longest Substring Without Repeating Characters](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/slidingwindow/LongestSubstring3.java)
+- [567. Permutation in String](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/slidingwindow/PermutationInString567.java)
