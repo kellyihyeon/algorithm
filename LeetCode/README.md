@@ -43,5 +43,9 @@
 - [3. Longest Substring Without Repeating Characters](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/slidingwindow/LongestSubstring3.java)
 - [567. Permutation in String](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/slidingwindow/PermutationInString567.java)
 
-### **Day 7.Breadth-First Search / Depth-First Search**
+### **Day 7 - Breadth-First Search / Depth-First Search**
 - [733. Flood Fill](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/bfsdfs/FloodFill733.java)
+
+### **Day 8 - Breadth-First Search / Depth-First Search**
+- [617. Merge Two Binary Trees](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/bfsdfs/MergeTwoBinaryTrees617.java)
+
