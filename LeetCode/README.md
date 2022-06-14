@@ -49,3 +49,7 @@
 ### **Day 8 - Breadth-First Search / Depth-First Search**
 - [617. Merge Two Binary Trees](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/bfsdfs/MergeTwoBinaryTrees617.java)
 
+
+### **Practice - Breadth-First Search / Depth-First Search**
+- [94. Binary Tree Inorder Traversal](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/bfsdfs/BinaryTreeInorderTraversal94.java)
+
