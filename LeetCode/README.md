@@ -52,4 +52,5 @@
 
 ### **Practice - Breadth-First Search / Depth-First Search**
 - [94. Binary Tree Inorder Traversal](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/bfsdfs/BinaryTreeInorderTraversal94.java)
+- [104. Maximum Depth of Binary Tree](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/bfsdfs/MaximumDepth104.java)
 
