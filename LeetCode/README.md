@@ -54,4 +54,5 @@
 - [94. Binary Tree Inorder Traversal](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/bfsdfs/BinaryTreeInorderTraversal94.java)
 - [104. Maximum Depth of Binary Tree](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/bfsdfs/MaximumDepth104.java)
 - [226. Invert Binary Tree](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/bfsdfs/InvertBinaryTree226.java)
+- [1022. Sum of Root To Leaf Binary Numbers](https://github.com/kellykang-tech/algorithm/blob/main/LeetCode/src/com/lab/studyplan/algorithm1/bfsdfs/SumOfRootToLeafBinaryNumbers1022.java)
 
