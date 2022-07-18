@@ -1,2 +1,4 @@
 arraysandhashing/ContainsDuplicate217.java
  arraysandhashing.ContainsDuplicate217
+arraysandhashing/ValidAnagram242.java
+ arraysandhashing.ValidAnagram242

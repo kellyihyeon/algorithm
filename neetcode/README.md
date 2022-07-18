@@ -11,4 +11,5 @@
 
 ## **[ INDEX ]**
 ### **Arrays & Hashing**
-- [217. Contains Duplicate]()
+- [217. Contains Duplicate](https://github.com/kellykang-tech/algorithm/blob/main/neetcode/src/main/java/arraysandhashing/ContainsDuplicate217.java)
+- [242. Valid Anagram](https://github.com/kellykang-tech/algorithm/blob/main/neetcode/src/main/java/arraysandhashing/ValidAnagram242.java)
