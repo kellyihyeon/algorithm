@@ -4,3 +4,5 @@ arraysandhashing/ValidAnagram242.java
  arraysandhashing.ValidAnagram242
 arraysandhashing/ValidAnagram242Discuss.java
  arraysandhashing.ValidAnagram242Discuss
+arraysandhashing/TwoSum1.java
+ arraysandhashing.TwoSum1

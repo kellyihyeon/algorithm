@@ -2,3 +2,5 @@ arraysandhashing/ContainsDuplicate217Test.java
  arraysandhashing.ContainsDuplicate217Test
 arraysandhashing/ValidAnagram242Test.java
  arraysandhashing.ValidAnagram242Test
+arraysandhashing/TwoSum1Test.java
+ arraysandhashing.TwoSum1Test

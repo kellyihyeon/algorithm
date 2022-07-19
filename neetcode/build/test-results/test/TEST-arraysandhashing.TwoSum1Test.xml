@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="arraysandhashing.TwoSum1Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-07-19T08:59:22" hostname="YIHYEONPC" time="0.039">
+  <properties/>
+  <testcase name="두 수를 합했을 때 target 의 수와 같아지는 숫자의 인덱스는 0과 1이다." classname="arraysandhashing.TwoSum1Test" time="0.036"/>
+  <testcase name="두 수를 합했을 때 target 의 수와 같아지는 숫자의 인덱스는 1과 2이다." classname="arraysandhashing.TwoSum1Test" time="0.001"/>
+  <testcase name="두 수를 합했을 때 target 의 수와 같아지는 숫자의 인덱스는 0과 1이다." classname="arraysandhashing.TwoSum1Test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
