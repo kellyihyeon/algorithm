@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="arraysandhashing.ValidAnagram242Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-07-18T09:34:47" hostname="YIHYEONPC" time="0.028">
+<testsuite name="arraysandhashing.ValidAnagram242Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-07-19T07:43:26" hostname="YIHYEONPC" time="0.041">
   <properties/>
-  <testcase name="s와 t의 길이가 같지 않은 경우 false 가 반환된다." classname="arraysandhashing.ValidAnagram242Test" time="0.024"/>
-  <testcase name="t가 s의 아나그램이 아니면 false 가 반환된다." classname="arraysandhashing.ValidAnagram242Test" time="0.001"/>
-  <testcase name="t가 s의 아나그램이면 true 가 반환된다." classname="arraysandhashing.ValidAnagram242Test" time="0.001"/>
+  <testcase name="s와 t의 길이가 같지 않은 경우 false 가 반환된다." classname="arraysandhashing.ValidAnagram242Test" time="0.034"/>
+  <testcase name="t가 s의 아나그램이 아니면 false 가 반환된다." classname="arraysandhashing.ValidAnagram242Test" time="0.002"/>
+  <testcase name="t가 s의 아나그램이면 true 가 반환된다." classname="arraysandhashing.ValidAnagram242Test" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -8,10 +8,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class ValidAnagram242Test {
 
     ValidAnagram242 sut;
+    ValidAnagram242Discuss discuss;
 
     @BeforeEach
     void setUp() {
         sut = new ValidAnagram242();
+        discuss = new ValidAnagram242Discuss();
     }
 
     @Test
@@ -19,8 +21,10 @@ class ValidAnagram242Test {
     void 길이가_같지_않은_경우() {
         String s = "ab", t = "a";
         boolean maybeFalse = sut.isAnagram(s, t);
+        boolean maybeFalse2 = discuss.isAnagram(s, t);
 
         assertFalse(maybeFalse);
+        assertFalse(maybeFalse2);
     }
 
     @Test
@@ -28,8 +32,10 @@ class ValidAnagram242Test {
     void 아나그램이_아닌_경우() {
         String s = "rat", t = "car";
         boolean maybeFalse = sut.isAnagram(s, t);
+        boolean maybeFalse2 = discuss.isAnagram(s, t);
 
         assertFalse(maybeFalse);
+        assertFalse(maybeFalse2);
     }
 
     @Test
@@ -37,8 +43,10 @@ class ValidAnagram242Test {
     void 아나그램인_경우() {
         String s = "anagram", t = "nagaram";
         boolean maybeTrue = sut.isAnagram(s, t);
+        boolean maybeTrue2 = discuss.isAnagram(s, t);
 
         assertTrue(maybeTrue);
+        assertTrue(maybeTrue2);
     }
 
 }
