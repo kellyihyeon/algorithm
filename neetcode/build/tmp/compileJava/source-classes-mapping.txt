@@ -8,3 +8,6 @@ arraysandhashing/TwoSum1.java
  arraysandhashing.TwoSum1
 arraysandhashing/GroupAnagrams49.java
  arraysandhashing.GroupAnagrams49
+arraysandhashing/TopKFrequentElements347.java
+ arraysandhashing.TopKFrequentElements347
+ arraysandhashing.TopKFrequentElements347$Count

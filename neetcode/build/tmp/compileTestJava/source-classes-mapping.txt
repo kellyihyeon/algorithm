@@ -6,3 +6,5 @@ arraysandhashing/TwoSum1Test.java
  arraysandhashing.TwoSum1Test
 arraysandhashing/GroupAnagrams49Test.java
  arraysandhashing.GroupAnagrams49Test
+arraysandhashing/TopKFrequentElements347Test.java
+ arraysandhashing.TopKFrequentElements347Test
