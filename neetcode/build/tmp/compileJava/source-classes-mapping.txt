@@ -11,3 +11,5 @@ arraysandhashing/GroupAnagrams49.java
 arraysandhashing/TopKFrequentElements347.java
  arraysandhashing.TopKFrequentElements347
  arraysandhashing.TopKFrequentElements347$Count
+arraysandhashing/ProductOfArrayExceptSelf238.java
+ arraysandhashing.ProductOfArrayExceptSelf238

@@ -8,3 +8,5 @@ arraysandhashing/GroupAnagrams49Test.java
  arraysandhashing.GroupAnagrams49Test
 arraysandhashing/TopKFrequentElements347Test.java
  arraysandhashing.TopKFrequentElements347Test
+arraysandhashing/ProductOfArrayExceptSelf238Test.java
+ arraysandhashing.ProductOfArrayExceptSelf238Test

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="arraysandhashing.TopKFrequentElements347Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-07-21T13:52:25" hostname="YIHYEONPC" time="0.032">
-  <properties/>
-  <testcase name="testCase1()" classname="arraysandhashing.TopKFrequentElements347Test" time="0.028"/>
-  <testcase name="testCase2()" classname="arraysandhashing.TopKFrequentElements347Test" time="0.001"/>
-  <testcase name="testCase3()" classname="arraysandhashing.TopKFrequentElements347Test" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
