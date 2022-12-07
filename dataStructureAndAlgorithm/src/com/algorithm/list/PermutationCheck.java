@@ -1,33 +1,32 @@
 package com.algorithm.list;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class PermutationCheck {
 
-    // 배열의 길이는 10만이라고 가정. -> 효율성 테스트 실패
-
+    // input = [4, 1, 3, 2] -> output = true
+    // 길이가 n인 배열에 1부터 n까지 중복된 수 없이 들어있는지
+    // 길이가 4인 배열 -> [1,2,3,4], 길이가 3인 배열 -> [1,2,3]
+    // 길이가 n 이다 -> 길이가 정해져있지 않아서 알 수 없다 -> List 자료형을 사용하자
+    // 효율성 테스트 -> 통과
     public boolean solution(int[] arr) {
         boolean answer = true;
-        int[] checkers = new int[arr.length + 1];
-        // 0번째에 1 체크
-        checkers[0] = 1;
 
+        // arr 의 길이를 구하고 길이에 맞는 정답 만들기
+        List<Integer> checker = new ArrayList<>();
+        for (int i = 1; i < arr.length + 1; i++) {
+            checker.add(i);
+        }
+        // arr 을 오름차순으로 정렬하고 정답과 일치하는지 비교하기
+        Arrays.sort(arr);
         for (int i = 0; i < arr.length; i++) {
-            // 두번째 테스트케이스의 경우에는 input 길이가 3이지만, 4값이 존재하므로 순열의 범위를 넘어섰으니 false 를 반환하게 한다.
-            if (arr[i] > arr.length) {
+            if (arr[i] != checker.get(i)) {
                 return false;
             }
-            // 루프를 돌면서 checker[input+1]에 1로 체크한다. 인덱스를 맞춰놓고 숫자가 존재하면 1로 체크하는 방법
-            checkers[arr[i]] = 1;
         }
-        List<Integer> results = Arrays.stream(checkers).boxed().collect(Collectors.toList());
 
-        // checker 가 전부 1로 차있으면 true, 그렇지 않으면 false 를 반환한다.
-        if (results.contains(0)) {
-            answer = false;
-        }
         return answer;
     }
 
@@ -35,7 +34,7 @@ public class PermutationCheck {
     // input = [4, 1, 3] -> output = false
     public static void main(String[] args) {
         PermutationCheck permutationCheck = new PermutationCheck();
-        int[] arr = {4, 1, 3};
+        int[] arr = {4, 1, 3, 2};
         System.out.println(permutationCheck.solution(arr));;
     }
 }
