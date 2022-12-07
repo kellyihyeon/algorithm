@@ -1,9 +1,28 @@
 package com.algorithm.list;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class IndexOfMax {
+
+    public int[] solution2(int[] arr) {
+        // arr 의 최대값 구하기
+        int max = Arrays.stream(arr).max().getAsInt();
+        // 최대값이 몇개나 존재할지 모르기 때문에 List 자료형을 사용하자
+        List<Integer> indexes = new ArrayList<>();
+        for (int i = 0; i < arr.length; i++) {
+            if (max == arr[i]) {
+                indexes.add(i);
+            }
+        }
+        // 인덱스 값의 목록을 배열로 변환하기
+        int[] answer = new int[indexes.size()];
+        for (int i = 0; i < indexes.size(); i++) {
+            answer[i] = indexes.get(i);
+        }
+        return answer;
+    }
 
     // input = [1, 3, 5, 4, 5, 2, 1]
     public List<Integer> solution(int[] arr) {
@@ -25,7 +44,6 @@ public class IndexOfMax {
             }
         }
         // 리스트를 배열로 변환하기
-
         return indexes;
     }
     
