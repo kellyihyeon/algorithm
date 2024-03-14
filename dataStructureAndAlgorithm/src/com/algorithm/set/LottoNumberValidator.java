@@ -13,6 +13,39 @@ public class LottoNumberValidator {
         System.out.println("answer = " + answer);
     }
 
+    public boolean useSet(int[] lotto) {
+        Set<Integer> set = new HashSet<>();
+
+        for (int num : lotto) {
+            if (num < 0 || num > 45) {
+                return false;
+            }
+
+            set.add(num);
+        }
+
+        return set.size() == lotto.length;
+    }
+
+
+    public boolean useArray(int[] lotto) {
+        boolean[] checker = new boolean[45 + 1];
+
+        for (int num : lotto) {
+            if (num < 0 || num > 45) {
+                return false;
+            }
+
+            if (checker[num]) {
+                return false;
+            }
+
+            checker[num] = true;
+        }
+
+        return true;
+    }
+
     public boolean solution(int[] lotto) {
         boolean answer = true;
         Set<Integer> numbers = new HashSet<>();
