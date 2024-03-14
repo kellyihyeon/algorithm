@@ -13,6 +13,26 @@ public class WordChain {
         System.out.println("answer = " + answer);
     }
 
+    public boolean compact(String[] words) {
+        Set<String> checker = new HashSet<>();
+        checker.add(words[0]);
+
+        for (int i = 1; i < words.length; i++) {
+            char last = words[i - 1].charAt(words[i - 1].length() - 1);
+            char first = words[i].charAt(0);
+
+            if (last != first) {
+                return false;
+            }
+
+            if (!checker.add(words[i])) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     public boolean solution(String[] words) {
         boolean answer = true;
 
