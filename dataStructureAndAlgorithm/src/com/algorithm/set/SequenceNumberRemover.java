@@ -2,6 +2,7 @@ package com.algorithm.set;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class SequenceNumberRemover {
@@ -14,6 +15,23 @@ public class SequenceNumberRemover {
         System.out.println("answers = " + Arrays.toString(answers));
 
     }
+
+    public int[] applySetPrinciple(int[] arr) {
+        List<Integer> tmp = new LinkedList<>();
+        int last = -1;
+
+        for (int num : arr) {
+            if (last == num) {
+                continue;
+            }
+
+            last = num;
+            tmp.add(num);
+        }
+
+        return tmp.stream().mapToInt(Integer::intValue).toArray();
+    }
+
 
     public int[] solution(int[] arr) {
         List<Integer> tmp = new ArrayList<>();
