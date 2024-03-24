@@ -13,8 +13,23 @@ public class ParenthesesValidator {
         boolean answer = new ParenthesesValidator().solution(s);
         System.out.println("answer = " + answer);
     }
-    boolean solution(String s) {
 
+    boolean useInteger(String s) {
+        int stack = 0;
+        for (char c : s.toCharArray()) {
+            if ('(' == c) {
+                stack++;
+            } else {
+                if (stack == 0) {
+                    return false;
+                }
+                stack--;
+            }
+        }
+        return stack == 0;
+    }
+
+    boolean solution(String s) {
         Stack<Character> stack = new Stack<>();
         for (char character : s.toCharArray()) {
             if ("(".equals(String.valueOf(character))) {
