@@ -12,6 +12,35 @@ public class ApiRelease {
 
         int[] answers = new ApiRelease().solution(progresses, speeds);
         System.out.println(Arrays.toString(answers));
+
+        int[] answers2 = new ApiRelease().solution2(progresses2, speeds2);
+        System.out.println("answers2 = " + Arrays.toString(answers2));
+    }
+
+    public int[] solution2(int[] progresses, int[] speeds) {
+        Queue<Integer> days = new LinkedList<>();
+        for (int i = 0; i < progresses.length; i++) {
+            days.offer((int) Math.ceil((100 - (float) progresses[i]) / (float) speeds[i]));
+        }
+
+        int count = 1;
+        List<Integer> answer = new LinkedList<>();
+        int standard = days.poll();
+
+        while (!days.isEmpty()) {
+            int compare = days.poll();
+            if (standard >= compare) {
+                count++;
+            } else {
+                standard = compare;
+                answer.add(count);
+                count = 1;
+            }
+        }
+
+        answer.add(count);
+
+        return answer.stream().mapToInt(Integer::intValue).toArray();
     }
 
     public int[] solution(int[] progresses, int[] speeds) {
