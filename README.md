@@ -20,15 +20,13 @@
 ## **[ INDEX ]**
 
 ### **CodeUp - 기초 100제**
-- [x] [완료](https://github.com/kellykang-tech/Algorithm/tree/main/basic-100)
+- [x] 완료
 - [기초 100제 바로가기](https://github.com/kellykang-tech/Algorithm/tree/main/basic-100)
 
 ### **인프런 - 코딩테스트 대비 (자바)**
-- [x] [완료](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest)
+- [x] 완료
 - [자바 알고리즘 코딩테스트 대비 바로가기](https://github.com/kellykang-tech/Algorithm/tree/main/PreparingCodingTest)
 
-### **프로그래머스 - 코딩테스트 연습**
-- [ ] [진행 중](https://github.com/kellykang-tech/Algorithm/tree/main/firstStage) 
-
-### **LeetCode - Problems**
-- [ ] [진행 중](https://github.com/kellykang-tech/Algorithm/tree/main/LeetCode)
+### **프로그래머스 - 어서와! 자료구조 알고리즘은 처음이지?**
+- [x] 완료
+- [어서와! 자료구조 알고리즘은 처음이지? 바로가기](https://github.com/kellyihyeon/algorithm/tree/main/dataStructureAndAlgorithm)
