@@ -30,3 +30,7 @@
 ### **프로그래머스 - 어서와! 자료구조 알고리즘은 처음이지?**
 - [x] 완료
 - [어서와! 자료구조 알고리즘은 처음이지? 바로가기](https://github.com/kellyihyeon/algorithm/tree/main/dataStructureAndAlgorithm)
+
+### **바킹독의 실전 알고리즘 강의**
+- [ ] 진행 중
+- [바킹독의 실전 알고리즘 강의 바로가기](https://github.com/kellyihyeon/algorithm/tree/main/barkingdog-tutorial)
