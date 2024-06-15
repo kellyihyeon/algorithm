@@ -1,4 +1,4 @@
-package com.github.kellyihyeon.section01_basic.timeandspacecomplexity;
+package com.github.kellyihyeon.section01_timecomplexity;
 
 /**
  * n이 제곱수이면 1을 반환하고 제곱수가 아니면 0을 반환하는 함수를 작성하라.

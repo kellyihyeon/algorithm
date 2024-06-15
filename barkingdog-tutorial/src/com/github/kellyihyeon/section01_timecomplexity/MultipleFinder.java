@@ -1,4 +1,4 @@
-package com.github.kellyihyeon.section01_basic.timeandspacecomplexity;
+package com.github.kellyihyeon.section01_timecomplexity;
 
 /**
  * n 이하의 자연수 중에서 3의 배수이거나 5의 배수인 수를 모두 합한 값을 반환하는 함수를 작성하라.

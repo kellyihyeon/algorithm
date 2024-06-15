@@ -1,4 +1,4 @@
-package com.github.kellyihyeon.section01_basic.timeandspacecomplexity;
+package com.github.kellyihyeon.section01_timecomplexity;
 
 import java.util.LinkedList;
 import java.util.Queue;
