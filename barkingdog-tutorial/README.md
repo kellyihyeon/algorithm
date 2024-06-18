@@ -17,3 +17,6 @@
 
 ### **SECTION 02. 기초2 (문제풀기)**
 - [01-10871. X보다 작은 수](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section02_basic/NumberLessThanX.java)
+
+### **SECTION 03. 배열**
+- [01-10808. 알파벳 개수](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/AlphabetCounter.java)
