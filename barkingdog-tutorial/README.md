@@ -20,3 +20,4 @@
 
 ### **SECTION 03. 배열**
 - [01-10808. 알파벳 개수](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/AlphabetCounter.java)
+- [02-2577. 숫자의 개수](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/NumbersCounter.java)
