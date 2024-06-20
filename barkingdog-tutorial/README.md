@@ -20,4 +20,5 @@
 
 ### **SECTION 03. 배열**
 - [01-10808. 알파벳 개수](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/AlphabetCounter.java)
-- [02-2577. 숫자의 개수](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/NumbersCounter.java)
+- [02-2577. 숫자 개수](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/NumbersCounter.java)
+- [03-1475. 방 번호](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/RoomNumber.java)
