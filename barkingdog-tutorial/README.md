@@ -23,3 +23,4 @@
 - [02-2577. 숫자 개수](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/NumbersCounter.java)
 - [03-1475. 방 번호](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/RoomNumber.java)
 - [04-3273. 두 수의 합](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/TwoNumberSum.java)
+- [05-10807. 개수 세기](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/Counter.java)
