@@ -25,3 +25,4 @@
 - [04-3273. 두 수의 합](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/TwoNumberSum.java)
 - [05-10807. 개수 세기](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/Counter.java)
 - [06-13300. 방 배정](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/RoomAssignment.java)
+- [07-11328. Strfry](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section03_array/Strfry.java)
