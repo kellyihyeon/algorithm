@@ -30,3 +30,4 @@
 
 ### **SECTION 04. 연결 리스트**
 - [01. 연결 리스트 테스트](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section04linkedlist/LinkedListTest.java)
+- [02-1406. 에디터](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section04linkedlist/Editor.java)
