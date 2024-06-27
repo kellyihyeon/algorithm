@@ -20,15 +20,15 @@ public class Editor {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        String word = br.readLine();
+        String line = br.readLine();
         int n = Integer.parseInt(br.readLine());
 
-        List<Character> text = new LinkedList<>();
-        for (char c : word.toCharArray()) {
-            text.add(c);
+        List<Character> values = new LinkedList<>();
+        for (char c : line.toCharArray()) {
+            values.add(c);
         }
 
-        ListIterator<Character> cursor = text.listIterator(text.size());
+        ListIterator<Character> text = values.listIterator(values.size());
 
         while (n-- > 0) {
             String[] command = br.readLine().split(" ");
@@ -36,26 +36,25 @@ public class Editor {
 
             if (operation == 'P') {
                 char add = command[1].charAt(0);
-                cursor.add(add);
-
+                text.add(add);
             } else if (operation == 'L') {
-                if (cursor.hasPrevious()) {
-                    cursor.previous();
+                if (text.hasPrevious()) {
+                    text.previous();
                 }
             } else if (operation == 'D') {
-                if (cursor.hasNext()) {
-                    cursor.next();
+                if (text.hasNext()) {
+                    text.next();
                 }
             } else if (operation == 'B') {
-                if (cursor.hasPrevious()) {
-                    cursor.previous();
-                    cursor.remove();
+                if (text.hasPrevious()) {
+                    text.previous();
+                    text.remove();
                 }
             }
         }
 
         StringBuilder sb = new StringBuilder();
-        for (char c : text) {
+        for (char c : values) {
             sb.append(c);
         }
         System.out.print(sb);
