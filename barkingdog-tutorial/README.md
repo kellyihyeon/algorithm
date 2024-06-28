@@ -31,4 +31,5 @@
 ### **SECTION 04. 연결 리스트**
 - [01. 연결 리스트 테스트](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section04linkedlist/LinkedListTest.java)
 - [02-140. 에디터](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section04linkedlist/Editor.java)
-- [02-5397. 키로거](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section04linkedlist/Keylogger.java)
+- [02-5397. 키로](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section04linkedlist/Keylogger.java)
+- [02-1158. 요세푸스 문제](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section04linkedlist/JosephusProblem.java)
