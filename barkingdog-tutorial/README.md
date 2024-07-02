@@ -35,4 +35,5 @@
 - [04-1158. 요세푸스 문제](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section04linkedlist/JosephusProblem.java)
 
 ### **SECTION 05. 스택**
-- [01. 스택](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section05stack/Stack.java)
+- [01-1028. 스택](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section05stack/Stack.java)
+- [02-10773. 제로](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section05stack/Zero.java)
