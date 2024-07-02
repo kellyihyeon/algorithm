@@ -37,3 +37,4 @@
 ### **SECTION 05. 스택**
 - [01-1028. 스택](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section05stack/Stack.java)
 - [02-10773. 제로](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section05stack/Zero.java)
+- [03-1874. 스택 수열](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section05stack/StackSequence.java)
