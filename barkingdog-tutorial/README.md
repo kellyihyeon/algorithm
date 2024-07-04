@@ -41,4 +41,5 @@
 - [04-2493. 탑](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section05stack/LaserTower.java)
 
 ### **SECTION 06. 큐**
-- [01-10845. 큐](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section05stack/Queue.java)
+- [01-10845. 큐](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section06queue/Queue.java)
+- [02-18258. 큐2](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section06queue/OptimizedQueue.java)
