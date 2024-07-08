@@ -44,3 +44,6 @@
 - [01-10845. 큐](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section06queue/Queue.java)
 - [02-18258. 큐2](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section06queue/OptimizedQueue.java)
 - [03-2164. 카드2](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section06queue/Card.java)
+
+### **SECTION 07. 덱**
+- [01-10866. 덱](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section07Deque/Deque.java)
