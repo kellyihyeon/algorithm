@@ -47,3 +47,4 @@
 
 ### **SECTION 07. 덱**
 - [01-10866. 덱](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section07Deque/Deque.java)
+- [02-1021. 회전하는 큐](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section07Deque/RotatingQueue.java)
