@@ -49,3 +49,6 @@
 - [01-10866. 덱](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section07Deque/Deque.java)
 - [02-1021. 회전하는 큐](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section07Deque/RotatingQueue.java)
 - [03-5430. AC](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section07Deque/Ac.java)
+
+### **SECTION 08. 스택의 활용 (수식의 괄호 쌍)**
+- [01-4949. 균형잡힌 세상](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section08stackutilization/BalancedUniverse.java)
