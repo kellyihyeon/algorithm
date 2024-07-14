@@ -53,3 +53,4 @@
 ### **SECTION 08. 스택의 활용 (수식의 괄호 쌍)**
 - [01-4949. 균형잡힌 세상](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section08stackutilization/BalancedUniverse.java)
 - [02-3986. 좋은 단어](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section08stackutilization/GoodWord.java)
+- [03-9012. 괄호](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section08stackutilization/ParenthesisString.java)
