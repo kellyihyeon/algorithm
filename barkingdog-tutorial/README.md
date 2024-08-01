@@ -59,3 +59,4 @@
 
 ### **SECTION 09. BFS**
 - [01-1926. 그림](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section09bfs/Picture.java)
+- [02-2178. 미로 탐색](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section09bfs/MazeExplorer.java)
