@@ -61,3 +61,4 @@
 - [01-1926. 그림](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section09bfs/Picture.java)
 - [02-2178. 미로 탐색](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section09bfs/MazeExplorer.java)
 - [03-7576. 토마토](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section09bfs/Tomato.java)
+- [04-4179. 불](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section09bfs/Fire.java)
