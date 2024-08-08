@@ -63,3 +63,4 @@
 - [03-7576. 토마토](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section09bfs/Tomato.java)
 - [04-4179. 불](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section09bfs/Fire.java)
 - [05-1697. 숨바꼭질](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section09bfs/HideAndSeek.java)
+- [06-1012. 유기농 배추](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section09bfs/OrganicCabbage.java)
