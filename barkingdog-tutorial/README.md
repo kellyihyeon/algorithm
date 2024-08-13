@@ -65,4 +65,5 @@
 - [05-1697. 숨바꼭질](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section09bfs/HideAndSeek.java)
 - [06-1012. 유기농 배추](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/section09bfs/OrganicCabbage.java)
 - [07-10026. 적록색약](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/CowArt.java)
-- [08-95366. 토마토](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/TomatoBoxes.java)
+- [08-7569. 토마토](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/TomatoBoxes.java)
+- [09-7562. 나이트의 이동](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/KnightMovement.java)
