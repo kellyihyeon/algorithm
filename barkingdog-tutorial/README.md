@@ -68,3 +68,4 @@
 - [08-7569. 토마토](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/TomatoBoxes.java)
 - [09-7562. 나이트의 이동](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/KnightMovement.java)
 - [10-5427. 불](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/Escape.java)
+- [11-2583. 영역 구하기](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/AreaCalculator.java)
