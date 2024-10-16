@@ -70,3 +70,5 @@
 - [10-5427. 불](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/Escape.java)
 - [11-2583. 영역 구하기](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/AreaCalculator.java)
 - [12-2667. 단지 번호 붙이기](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/ResidentialZone.java)
+- [13-5014. 스타트링크](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/StartLink.java)
+- [14-2468. 안전 영역](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/RefugeArea.java)
