@@ -72,3 +72,4 @@
 - [12-2667. 단지 번호 붙이기](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/ResidentialZone.java)
 - [13-5014. 스타트링크](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/StartLink.java)
 - [14-2468. 안전 영역](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/RefugeArea.java)
+- [15-6593. 상범 빌딩](https://github.com/kellyihyeon/algorithm/blob/main/barkingdog-tutorial/src/com/github/kellyihyeon/SangbeomBuilding.java)
